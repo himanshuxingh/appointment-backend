@@ -2,7 +2,7 @@ var express = require("express");
 require("dotenv").config();
 var app = express();
 var mongoClient = require("mongodb").MongoClient;
-var conStr = process.env.MONGO_URI;
+var conStr = mongodb+srv://himanshu:Hh@password@cluster0.3gnrojo.mongodb.net/;
 
 
 var cors=require("cors");// allow all request methods 
