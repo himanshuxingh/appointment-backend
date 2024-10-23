@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("<h1>this is home page</h1>");
+    res.send("<h1>this is home</h1>");
     res.end();
 });
 
